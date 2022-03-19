@@ -26,6 +26,7 @@ def page_parser(num):
         link = offer.find('a')
         f.write(f'{name} Miejscowosc: {place} Cena: {price}\n')
         f.write(f'{link["href"]}\n')
+        f.write('\n')
 
 
 if __name__ == '__main__':
